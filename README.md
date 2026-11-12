@@ -23,8 +23,9 @@ the code, and my job is everything around it:
   review; the real bugs they found (lost audio after 93 minutes, a pause/resume race, a
   double-save on double-click) were fixed and covered by tests
 
-I understand and can explain every part of these projects — the agents make me faster, they
-don't make the decisions.
+My role is closer to a tech lead than a typist: I read and adjust code, but mainly I own the
+scope, the architecture and the quality bar — and I can explain why each part is built the way
+it is. The agents make me faster; they don't make the decisions.
 
 ---
 
