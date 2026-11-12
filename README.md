@@ -1,10 +1,10 @@
 ### Hi, I'm Mazgin 👋
 
-Software developer from Kiel, Germany. I build tools that I use every day — mostly around
-**local AI, speech recognition and Windows desktop software** — and I care about measuring
-what I build and testing it properly.
+Business informatics (Wirtschaftsinformatik) student at **Kiel University (CAU)** in Kiel, Germany. In my free time I build tools that I use
+every day — mostly around **local AI, speech recognition and Windows desktop software** — and I
+care about measuring what I build and testing it properly.
 
-I'm looking for **software engineering roles in AI-related teams**.
+I'm looking for opportunities in **AI-related software teams**.
 
 ---
 
