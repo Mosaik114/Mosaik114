@@ -18,7 +18,7 @@ the code, and my job is everything around it:
   tiny Rust host plus a WPF engine, or why Hams keeps audio processing on the GPU)
 - **Direct the agents** in small, reviewable steps instead of one-shot prompts
 - **Verify instead of trust:** tests for every behaviour, CI on every push, measurements before
-  and after a change (Hams: latency 3.09 s → 0.72 s, word error rate per model)
+  and after a change (Hams: latency 3.09 s → 0.72 s, word error rate with and without LLM cleanup)
 - **Review independently:** Mosaik Capture went through ten rounds of independent code
   review; the real bugs they found (lost audio after 93 minutes, a pause/resume race, a
   double-save on double-click) were fixed and covered by tests
@@ -40,7 +40,7 @@ StoreKit 2, no tracking and no server. In TestFlight with 1,500+ logic tests. So
 **[Hams](https://github.com/Mosaik114/hams-bachelorprojekt)** — local, privacy-first voice input for Windows and Linux  
 Hotkey → speak → corrected text appears at the cursor. faster-whisper on the GPU plus an
 Ollama LLM for clean-up, all on the machine. Bachelor project at CAU Kiel: end-to-end latency
-cut from **3.09 s to 0.72 s**, with measured word error rates and 1,500+ tests in CI.  
+cut from **3.09 s to 0.72 s**, now an installable app (Windows installer, setup assistant, English UI) with ≈1,600 tests in CI.  
 `Python` · `faster-whisper` · `CUDA` · `Ollama` · `Tkinter` · `Wayland portals`
 
 **[Mosaik Capture](https://github.com/Mosaik114/mosaik-capture)** — keyboard-first screenshot and screen-recording tool for Windows  
