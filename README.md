@@ -31,19 +31,19 @@ it is. The agents make me faster; they don't make the decisions.
 
 #### Featured projects
 
-**[Kalino](https://github.com/Mosaik114/kalino)** — iPhone app for learning languages: Arabic, German and English, from the first letter to real texts  
+<img src="assets/kalino.png" width="24" height="24" align="absmiddle" alt=""> **[Kalino](https://github.com/Mosaik114/kalino)** — iPhone app for learning languages: Arabic, German and English, from the first letter to real texts  
 Nine courses, each language learnable from the other two or from itself. Animated, hand-painted lessons,
 spaced-repetition flashcards and a graded reader, all drawn in code. Private iCloud sync, on-device
 StoreKit 2, no tracking and no server. In TestFlight with 1,500+ logic tests. Source code is private.  
 `Swift` · `SwiftUI` · `SwiftData` · `CloudKit` · `StoreKit 2` · `Core Text`
 
-**[Hams](https://github.com/Mosaik114/hams-bachelorprojekt)** — local, privacy-first voice input for Windows and Linux  
+<img src="assets/hams.png" width="24" height="24" align="absmiddle" alt=""> **[Hams](https://github.com/Mosaik114/hams-bachelorprojekt)** — local, privacy-first voice input for Windows and Linux  
 Hotkey → speak → corrected text appears at the cursor. faster-whisper on the GPU plus an
 Ollama LLM for clean-up, all on the machine. Bachelor project at CAU Kiel: end-to-end latency
 cut from **3.09 s to 0.72 s**, now an installable app (Windows installer, setup assistant, English UI) with ≈1,600 tests in CI.  
 `Python` · `faster-whisper` · `CUDA` · `Ollama` · `Tkinter` · `Wayland portals`
 
-**[Mosaik Capture](https://github.com/Mosaik114/mosaik-capture)** — keyboard-first screenshot and screen-recording tool for Windows  
+<img src="assets/nazar.png" width="24" height="24" align="absmiddle" alt=""> **[Mosaik Capture](https://github.com/Mosaik114/mosaik-capture)** — keyboard-first screenshot and screen-recording tool for Windows  
 A small Rust tray app drives a C#/WPF engine: freeze-frame capture, annotation editor with
 shape recognition, offline OCR, GPU recording via Desktop Duplication with audio kept in sync
 across pauses, trimming and GIF export. 560+ tests incl. real ffmpeg runs and pixel comparisons.  
