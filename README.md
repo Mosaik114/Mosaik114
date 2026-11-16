@@ -37,16 +37,16 @@ spaced-repetition flashcards and a graded reader, all drawn in code. Private iCl
 StoreKit 2, no tracking and no server. In TestFlight with 1,500+ logic tests. Source code is private.  
 `Swift` · `SwiftUI` · `SwiftData` · `CloudKit` · `StoreKit 2` · `Core Text`
 
-<img src="assets/hams.png" width="24" height="24" align="absmiddle" alt=""> **[Hams](https://github.com/Mosaik114/hams-bachelorprojekt)** — local, privacy-first voice input for Windows and Linux  
+<img src="assets/hams.png" width="24" height="24" align="absmiddle" alt=""> **[Hams Dictate](https://github.com/Mosaik114/hams-bachelorprojekt)** — local, privacy-first voice input for Windows and Linux  
 Hotkey → speak → corrected text appears at the cursor. faster-whisper on the GPU plus an
 Ollama LLM for clean-up, all on the machine. Bachelor project at CAU Kiel: end-to-end latency
-cut from **3.09 s to 0.72 s**, now an installable app (Windows installer, setup assistant, English UI) with ≈1,600 tests in CI.  
+cut from **3.09 s to 0.72 s**, now an installable app (version 1.3.2: Windows installer, setup assistant, English UI) with ≈3,700 tests in CI and 94.8 % coverage.  
 `Python` · `faster-whisper` · `CUDA` · `Ollama` · `Tkinter` · `Wayland portals`
 
 <img src="assets/nazar.png" width="24" height="24" align="absmiddle" alt=""> **[Nazar Capture](https://github.com/Mosaik114/nazar-capture)** — keyboard-first screenshots and screen recordings for Windows  
 A small Rust tray app drives a C#/WPF engine: freeze-frame capture, annotation editor with
 shape recognition, offline OCR, GPU recording via Desktop Duplication with audio kept in sync
-across pauses, trimming and GIF export. Same design language as Hams, in-app updates with a
+across pauses, trimming and GIF export. Same design language as Hams Dictate, in-app updates with a
 checksum check, 800+ tests incl. real ffmpeg runs and pixel comparisons of every window.  
 `Rust` · `C#` · `WPF` · `Win32` · `WASAPI` · `ffmpeg`
 
