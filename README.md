@@ -14,12 +14,12 @@ I'm looking for opportunities in **AI-related software teams**.
 I work **AI-native**: coding agents — mainly **Claude Code**, also OpenAI Codex — write much of
 the code, and my job is everything around it:
 
-- **Scope the problem** and decide the architecture and trade-offs (e.g. why Mosaik Capture is a
+- **Scope the problem** and decide the architecture and trade-offs (e.g. why Nazar Capture is a
   tiny Rust host plus a WPF engine, or why Hams keeps audio processing on the GPU)
 - **Direct the agents** in small, reviewable steps instead of one-shot prompts
 - **Verify instead of trust:** tests for every behaviour, CI on every push, measurements before
   and after a change (Hams: latency 3.09 s → 0.72 s, word error rate with and without LLM cleanup)
-- **Review independently:** Mosaik Capture went through ten rounds of independent code
+- **Review independently:** Nazar Capture went through ten rounds of independent code
   review; the real bugs they found (lost audio after 93 minutes, a pause/resume race, a
   double-save on double-click) were fixed and covered by tests
 
@@ -43,10 +43,11 @@ Ollama LLM for clean-up, all on the machine. Bachelor project at CAU Kiel: end-t
 cut from **3.09 s to 0.72 s**, now an installable app (Windows installer, setup assistant, English UI) with ≈1,600 tests in CI.  
 `Python` · `faster-whisper` · `CUDA` · `Ollama` · `Tkinter` · `Wayland portals`
 
-<img src="assets/nazar.png" width="24" height="24" align="absmiddle" alt=""> **[Mosaik Capture](https://github.com/Mosaik114/mosaik-capture)** — keyboard-first screenshot and screen-recording tool for Windows  
+<img src="assets/nazar.png" width="24" height="24" align="absmiddle" alt=""> **[Nazar Capture](https://github.com/Mosaik114/nazar-capture)** — keyboard-first screenshots and screen recordings for Windows  
 A small Rust tray app drives a C#/WPF engine: freeze-frame capture, annotation editor with
 shape recognition, offline OCR, GPU recording via Desktop Duplication with audio kept in sync
-across pauses, trimming and GIF export. 560+ tests incl. real ffmpeg runs and pixel comparisons.  
+across pauses, trimming and GIF export. Same design language as Hams, in-app updates with a
+checksum check, 800+ tests incl. real ffmpeg runs and pixel comparisons of every window.  
 `Rust` · `C#` · `WPF` · `Win32` · `WASAPI` · `ffmpeg`
 
 ---
